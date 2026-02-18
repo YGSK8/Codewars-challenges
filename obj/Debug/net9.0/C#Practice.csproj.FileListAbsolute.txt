@@ -1,0 +1,14 @@
+/Users/yanishgooradoo/C#Practice/bin/Debug/net9.0/C#Practice
+/Users/yanishgooradoo/C#Practice/bin/Debug/net9.0/C#Practice.deps.json
+/Users/yanishgooradoo/C#Practice/bin/Debug/net9.0/C#Practice.runtimeconfig.json
+/Users/yanishgooradoo/C#Practice/bin/Debug/net9.0/C#Practice.dll
+/Users/yanishgooradoo/C#Practice/bin/Debug/net9.0/C#Practice.pdb
+/Users/yanishgooradoo/C#Practice/obj/Debug/net9.0/C#Practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yanishgooradoo/C#Practice/obj/Debug/net9.0/C#Practice.AssemblyInfoInputs.cache
+/Users/yanishgooradoo/C#Practice/obj/Debug/net9.0/C#Practice.AssemblyInfo.cs
+/Users/yanishgooradoo/C#Practice/obj/Debug/net9.0/C#Practice.csproj.CoreCompileInputs.cache
+/Users/yanishgooradoo/C#Practice/obj/Debug/net9.0/C#Practice.dll
+/Users/yanishgooradoo/C#Practice/obj/Debug/net9.0/refint/C#Practice.dll
+/Users/yanishgooradoo/C#Practice/obj/Debug/net9.0/C#Practice.pdb
+/Users/yanishgooradoo/C#Practice/obj/Debug/net9.0/C#Practice.genruntimeconfig.cache
+/Users/yanishgooradoo/C#Practice/obj/Debug/net9.0/ref/C#Practice.dll

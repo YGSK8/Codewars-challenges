@@ -3,29 +3,21 @@ public class Kata
 {
     public static int[] ArrayDiff(int[] a, int[] b)
     {
-        int [] difference = a;
-        foreach(int value in b)
+       int counter = 0;
+       for (int x = 0; x < a.Length; x++) //-- If element in a is not in b, it should be in the final array. Size of the array is value of counter
         {
-            int[] temparray;
-            if (Array.IndexOf(difference,value) != -1)
+            if(Array.IndexOf(b,a[x])==-1)counter ++; 
+        }
+        int[] newarray = new int [counter];
+        int newarraycounter = 0;
+        for(int y =0;y< a.Length; y++)
+        {
+            if(Array.IndexOf(b,a[y]) == -1)
             {
-                while(Array.IndexOf(difference,value) >= 0)
-                {
-                    int index = 0;
-                    temparray = new int [difference.Length-1];
-                    for (int position = 0; position < difference.Length; position++)
-                    {
-                        if(position != Array.IndexOf(difference, value))
-                        {
-                            temparray[index] = difference[position];
-                            index ++ ;
-                        }
-                    }
-                    difference = temparray;
-                }
-            
+                newarray[newarraycounter] = a[y];
+                newarraycounter++;
             }
         }
-        return difference;
+        return newarray;
     }
 }

@@ -1,4 +1,4 @@
-namespace Katas.Level6;
+namespace Katas.ArrayDiff;
 public class Kata
 {
     public static int[] ArrayDiff(int[] a, int[] b)

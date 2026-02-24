@@ -2,7 +2,8 @@
 using Katas.ArrayDiff;
 using Katas.Oddint;
 using Katas.Isograms;
+using Katas.WhoLikesit;
 
-string a = "moOse";
+string [] a = ["Alex", "Jacob", "Mark", "Max","Peter"];   
 
-Console.WriteLine(Katas.Isograms.Kata.IsIsogram(a));
+Console.WriteLine(Katas.WhoLikesit.Kata.Likes(a));

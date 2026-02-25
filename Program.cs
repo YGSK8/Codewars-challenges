@@ -3,7 +3,8 @@ using Katas.ArrayDiff;
 using Katas.Oddint;
 using Katas.Isograms;
 using Katas.WhoLikesit;
+using Kata = Katas.WhoLikesit.Kata;
+using Katas.Printer;
 
-string [] a = ["Alex", "Jacob", "Mark", "Max","Peter"];   
-
-Console.WriteLine(Katas.WhoLikesit.Kata.Likes(a));
+string s="aaaxbbbbyyhwawiwjjjwwm";
+Console.WriteLine(Printer.PrinterError(s));

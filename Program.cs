@@ -5,6 +5,6 @@ using Katas.Isograms;
 using Katas.WhoLikesit;
 using Kata = Katas.WhoLikesit.Kata;
 using Katas.Printer;
+using Katas.Multiple3or5;
 
-string s="aaaxbbbbyyhwawiwjjjwwm";
-Console.WriteLine(Printer.PrinterError(s));
+Console.WriteLine(Katas.Multiple3or5.Kata.Solution(1));

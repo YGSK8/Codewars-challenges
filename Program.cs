@@ -6,5 +6,10 @@ using Katas.WhoLikesit;
 using Kata = Katas.WhoLikesit.Kata;
 using Katas.Printer;
 using Katas.Multiple3or5;
+using Katas.Prime;
+using Katas.SameArray;
+using Katas.WhichAreIn;
+using Katas.CubePile;
+using Katas.Roman;
 
-Console.WriteLine(Katas.Multiple3or5.Kata.Solution(20));
+Console.WriteLine(RomanDecode.Solution("MDXLIV"));
